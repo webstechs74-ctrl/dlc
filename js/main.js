@@ -1,0 +1,1 @@
+var f=document.getElementById("f");if(f)f.onsubmit=function(e){e.preventDefault();var d=new FormData(f);window.open("https://wa.me/919521838288?text="+encodeURIComponent("Name: "+d.get("n")+"\nPhone: "+d.get("p")+"\n"+d.get("m")),"_blank")};
